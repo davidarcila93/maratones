@@ -1,5 +1,5 @@
 
-public class TableCity {
+public class TableCity_575D {
 
 	public static void main(String[] args)throws Exception {
 		System.out.println("2000");

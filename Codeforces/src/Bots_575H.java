@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 
-public class Bots {
+public class Bots_575H {
 	static long mod = 1000000007;
 	public static void main(String[] args)throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -19,8 +19,6 @@ public class Bots {
 		for(int i=0; i<inv.length; i++){
 			inv[i] = fastPow(fact[i], (int)(mod-2));
 		}
-//		System.out.println(fact[2*n+2]+" "+inv[n+1]);
-//		System.out.println(inv[20]);
 		long ans = ((((fact[2*n+2]*inv[n+1])%mod) *inv[n+1])+mod-1)%mod;
 		
 		System.out.println( ans);
@@ -35,5 +33,4 @@ public class Bots {
 			ans=(ans*n)%mod;
 		return ans;
 	}
-
 }
