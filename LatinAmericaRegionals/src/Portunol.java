@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.StringTokenizer;
 
 
-public class Portuñol {
+public class Portunol {
 	
 	public static class Trie{
 		int[][] t;
